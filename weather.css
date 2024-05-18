@@ -1,0 +1,97 @@
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.search{
+    margin: 30px;
+    width: 50%;  
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#search-location{
+    margin: 10px;
+    border: 2px solid black;
+    height: 35px;
+    width: 75%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+#search-location::placeholder{ 
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#enter{
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    width: 38px;
+    height: 40px;
+}
+.content-container img{
+    height: 223px;
+    width: 231px;
+    margin: 20px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#error-message{
+    display: none;
+    color: red;
+}
+.hum-wind{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 231px;
+    
+}
+.text{
+    margin: 30px;
+}
+#show-all{
+    display: none;
+}
+.text{
+    color: red;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: ui-sans-serif;
+    background-color: yellow;
+    height: 0%;
+
+}
+body{
+    width: 60%;
+}

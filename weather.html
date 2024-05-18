@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./weather.js" defer></script>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+
+<body>
+    <div class="content-container">
+        <div class="search">
+            <div class="search-box">
+                <input id="search-location" type="text" placeholder="지역 검색">
+                <button id="enter" onclick="print()"></button>
+            </div>
+            <p id="tell">지역을 입력하세요.</p>
+            <p id="error-message">지역이 존재하지 않습니다.</p>
+            <div id="show-all">
+                
+                <div id="icon"><img id="imgsrc" src="" alt="Weather icon"></div>
+                    <div id="info">
+                    <div class="temper-loc">
+                        <p id="temperature">온도</p>
+                        <p id="location">지역</p>
+                    </div>
+                    <div class="hum-wind">
+                        <p id="humidity">습도</p>
+                        <p id="wind">강풍</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="text">
+            <p>날씨정보확인!!!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
